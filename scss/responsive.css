@@ -1,0 +1,50 @@
+/*   Medium Layout :1200px  */
+@media only screen and (min-width:992px) and (max-width:1200px){}
+
+
+
+/*   Tablet Layout :768px  */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .body .image_top .single_img{
+        width: 150px;
+        margin: auto;
+    }
+}
+
+
+
+/*   Tablet & Mobile Layout :768px  */
+@media only screen and (max-width:991px){}
+
+
+
+
+/*   Mobile Layout :320px  */
+@media only screen and (max-width:767px){
+    body .our_services .circle_sectio .circle .circle_border{
+        width: 250px;
+        height: 250px;
+    }
+    body .our_services .circle_sectio .circle .circle_border .circle_bg{
+        width: 240px;
+        height: 240px;
+    }
+    body .work_bg_part .working_part .single_work_part .margin_right{
+        margin-left: 0px;
+    }
+    body .work_bg_part .working_part .single_work_part .single_part_list{
+        width: 100px;
+        height: 100px;
+    }
+    body .work_bg_part .working_part .single_work_part .single_part_list i.fab{
+        left: 40px;
+        top: 38px;
+    }
+}
+
+
+
+
+/*   Wide Mobile Layout :480px  */
+@media only screen and (min-width:480px) and (max-width:767px){}
+

@@ -1,9 +1,0 @@
-/* About Page Slider*/
-$(document).ready(function(){
-	$('.slider').slick({
-		infinite: true,
-		slideToShow:1,
-		slideToScroll:1
-	})
-
-});
