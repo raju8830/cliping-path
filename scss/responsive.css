@@ -1,50 +1,183 @@
-/*   Medium Layout :1200px  */
-@media only screen and (min-width:992px) and (max-width:1200px){}
-
-
-
 /*   Tablet Layout :768px  */
 @media only screen and (min-width:768px) and (max-width:991px){
     .body .image_top .single_img{
         width: 150px;
         margin: auto;
     }
+    body .work_bg_part .working_part .single_work_part .margin_right {
+        margin-left: 100px;
+    }
+    body .work_bg_part .working_part .single_work_part .clipping_process_before2 img{
+        left: 220px;
+        top: 34px;
+        width: 71%;
+    }
+    .banner_part_top1,
+    .banner_top,
+    .banner_part_top{
+        display: none;
+    }
 }
-
-
-
-/*   Tablet & Mobile Layout :768px  */
-@media only screen and (max-width:991px){}
-
-
-
-
 /*   Mobile Layout :320px  */
 @media only screen and (max-width:767px){
     body .our_services .circle_sectio .circle .circle_border{
-        width: 250px;
-        height: 250px;
+        width: 160px;
+        height: 160px;
+        padding: 3px 3px;
     }
     body .our_services .circle_sectio .circle .circle_border .circle_bg{
-        width: 240px;
-        height: 240px;
+        width: 150px;
+        height: 150px;
+    }
+    .text_part a{
+       font-size: 12px;
+       padding: 10px 20px
+    }
+    body .our_services .circle_sectio .circle_text_2{
+        top: 15%;
+        left: -57%;
+    }
+    body .our_services .circle_sectio .circle .circle_border .circle_bg a{
+        font-size: 10px;
+    }
+    body .our_services .circle_sectio .circle_text_3{
+        top: 11%;
+        right: -50%;
+    }
+    body .our_services .circle_sectio .circle_text_6{
+        bottom: 10%;
+        left: -20%;
+    }
+    body .our_services .circle_sectio .circle_text_7{
+        right: -52%;
+        bottom: 11%;
+    }
+    body .our_services .circle_sectio .circle_text_4{
+        top: 45%;
+        left: -54%;
+    }
+    body .our_services .circle_sectio .circle_text_5{
+        right: -53%;
+        top: 45%;
     }
     body .work_bg_part .working_part .single_work_part .margin_right{
         margin-left: 0px;
-    }
-    body .work_bg_part .working_part .single_work_part .single_part_list{
-        width: 100px;
-        height: 100px;
     }
     body .work_bg_part .working_part .single_work_part .single_part_list i.fab{
         left: 40px;
         top: 38px;
     }
+
+    body .work_bg_part .working_part .single_work_part .clipping_process_before img,
+    body .work_bg_part .working_part .single_work_part .clipping_process_before2 img{
+        display: none;
+    }
+    body .work_bg_part .working_part .single_work_part .text_list_part p{
+        font-size: 12px;
+    }
+    .body .work_bg_part .working_part .single_work_part .text_list_part h5{
+        font-size: 14px;
+    }
+    body .image_top .single_img,
+    body .image_top .single_img .gallary_full .width_full{
+        height: 400px;
+    }
+    body .image_top .single_img .short_img .width_haf,
+    body .image_top .single_img .short_img .small_img2,
+    body .image_top .single_img .short_img .small_img3,
+    body .image_top .single_img .short_img .small_img4,
+    body .image_top .single_img .short_img .small_img1{
+        height: 200px;
+    }
+    .conaction_input{
+        margin: 20px 0px;
+    }
+    .single_seayes_right{
+        margin-top: 50px;
+    }
+    body .client_part_bg .client_sayes .single_client_sayes .sclien_sayes_content .text_client{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    body .client_part_bg .client_sayes .single_client_sayes .sclien_sayes_content .client_img{
+        margin-left: 30px;
+    }
+    .single_count{
+        margin-top: 30px;
+    }
+    /*Footer*/
+    .footer_box{
+        margin-top: 50px;
+    }
+    body .count_bg .go_to_top{
+        left: 42%;
+    }
+    /*Header Part*/
+    .header_top_left{
+        margin-top: 10px;
+    }
+    .banner_part_top1,
+    .banner_top,
+    .banner_part_top{
+        display: none;
+    }
+    body .header_banner .single_header .you_and_me ul li{
+        width: 55px;
+        height: 55px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    body .header_banner .single_header .you_and_me ul li span.you_bottom{
+        width: 20px;
+        height: 20px;
+    }
+    body .header_banner .single_header .you_and_me ul p{
+        width: 140px;
+        height: 50px;
+    }
+    body .header_banner .single_header .you_and_me .you_and_me_img{
+        left: 45px;
+        z-index: 6;
+        top: -37px;
+        width: 38%;
+    }
+    body .header_banner .single_header .you_and_me .you_and_me_img2{
+        right: 100px;
+        z-index: 6;
+        bottom: -24px;
+        width: 38%;
+    }
+    body .header_banner .single_img_part{
+        margin-top: 50px;
+        width: auto;
+        height: 300px;
+    }
+    body .header_banner .single_header {
+        margin-top: 90px;
+    }
+    /*Prising part*/
+    body .section_top .prices_top .prices_img img{
+        width: 70px;
+        height: 70px;
+    }
+    body .section_top .prices_top .prices_img .prices_link,
+    body .section_top .prices_top .prices_img .prices_link_2{
+        right: 80px;
+        top: 25px;
+        padding: 0px 5px;
+    }
+    body .section_top .prices_top .right_text_prices,
+    body .section_top .prices_top .text_price h2{
+        margin-top: 20px;
+    }
+    .iamge_section_btn a{
+        margin-top: 10px;
+    }
+    .single_image{
+        margin-top: 50px;
+    }
+    body .our_prices_bg .our_section_part{
+        width: 320px;
+    }
 }
-
-
-
-
-/*   Wide Mobile Layout :480px  */
-@media only screen and (min-width:480px) and (max-width:767px){}
 
